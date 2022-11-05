@@ -75,7 +75,7 @@ export default class TileMap {
                 let tile = this.map[row][col];
                 if(tile === 2) {
                     this.map[row][col] = 0;
-                    return new this.getPachead(col*this.tileSize, row*this.tileSize, this.tileSize, velocity, this);
+                    return new Pachead(col*this.tileSize, row*this.tileSize, this.tileSize, velocity, this);
                 }
             }
         }

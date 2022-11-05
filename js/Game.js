@@ -7,7 +7,7 @@ const tileSize = 32;
 const velocity = 1;
 
 const tileMap = new TileMap(tileSize);
-// const pachead = tileMap.getPachead(velocity);
+const pachead = tileMap.getPachead(velocity);
 
 function gameLoop() {
     tileMap.draw(ctx);
