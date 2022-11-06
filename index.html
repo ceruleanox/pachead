@@ -8,10 +8,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <h1>Pac-Head</h1>
-        <h3> Pac-Man Version 2.0 - Post-COVID Edition</h3>
-        <canvas id="gameCanvas"></canvas>    
+    <div class="hero">
+        <div class ="main-text">
+            <h1>PAC-HEAD</h1>
+            <h3>The More Politically Correct Version of Pac-Man</h3>
+            <p>This is Pac-Man Version 2.0 - Post-COVID Edition - that adds a twist to the fun-loving game we all know.</p>
+            <a href="game.html">Play Now</a>
+            <a href="gamePC.html" class="cta"><i class="fa-solid fa-play"></i>Post-COVID Play</a>
+            <div class="img">
+                <img src="img/Pac-Man.webp" />
+            </div>
+
+            <br><br>
+            <div class="music">
+                <audio controls autoplay>
+                    <source src="./audio/splash_remix.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+                </audio>
+            </div>        
+        </div>
     </div>
     <script src="js/Game.js" type="module"></script>
 </body>

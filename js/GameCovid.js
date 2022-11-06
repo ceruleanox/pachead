@@ -1,4 +1,4 @@
-import TileMap from "./TileMap.js";
+import TileMap from "./TileMapCovid.js";
 
 const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");

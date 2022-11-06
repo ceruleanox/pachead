@@ -1,8 +1,8 @@
 const MovingDirection = {
-    up: 1,
-    left: 2,
-    down: 3,
-    right: 4
+    up: 0,
+    left: 1,
+    down: 2,
+    right: 3
 };
 
 export default MovingDirection;
